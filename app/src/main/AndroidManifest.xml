@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission
+        android:name="android.permission.BATTERY_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Testapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".SatisSozlesmesi.SalesContractActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuccsesActivity.CustomScannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProximitySensor.BrightnessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProximitySensor.ProximitySensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuccsesActivity.SuccsesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CameraActivity.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProximitySensor.ScreenBrightness"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PixelActivity.PixelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EkranActivity.EkranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.VibrationActivity.VibrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MicTestActivity.MicTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SoundActivity.SoundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SimSlot.SimSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Battery.BatteryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Bluetooth.BluetoothActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.WifiPage.WifiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OtoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Sample AdMob app ID: ca-app-pub-2801775263993120~9059953946 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+    </application>
+
+</manifest>
