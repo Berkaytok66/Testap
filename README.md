@@ -18,3 +18,4 @@ Testing Other Settings: Other settings of the device are also tested. This inclu
 
 Berkay Toktamışlı
 
+![WhatsApp Görsel 2024-04-14 saat 05 36 38_63258793](https://github.com/Berkaytok66/Testap/assets/93052055/c8d16353-3554-41af-8062-73fc83aaf7c3)
